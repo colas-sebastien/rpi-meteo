@@ -1,0 +1,15 @@
+[Unit]
+Description=RPI Meteo
+
+[Service]
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+ExecStart=/home/pi/rpi-meteo/meteo.sh
+Restart=always
+RestartSec=60s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=graphical.target

@@ -1,0 +1,2 @@
+*/5  *  * * *   root    /home/pi/rpi-meteo/sensors.sh
+*/15  *    * * *   root    /home/pi/rpi-meteo/weather.sh

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=rpi-meteo
+Exec=/home/pi/rpi-meteo/meteo.sh
